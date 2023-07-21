@@ -12,7 +12,7 @@ public class BloodDonation {
 			System.out.println("Enter Your Weight: ");
 			int weight=scan.nextInt();
 			
-			if(age>18&weight>50) {
+			if(age>=18&weight>=50) {
 				System.out.println("you are eligible");
 			}
 			else
